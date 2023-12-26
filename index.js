@@ -6,7 +6,7 @@ db();
 const User = require('./routes/user.routes.js');
 const Exist = require('./routes/rest-pass.js');
 const Forget = require('./routes/pass-reset.js');
-const Login = require('../Backend/routes/login.js');
+const Login = require('./routes/login.js');
 const app = express();
 app.use(express.json());
 app.use(cors());
